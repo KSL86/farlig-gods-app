@@ -701,6 +701,9 @@ export default function App() {
 
   const [printConfig, setPrintConfig] = useState(null);
 
+  // Brreg search query state (controlled by parent to avoid re-mount focus loss)
+  const [brregQuery, setBrregQuery] = useState({sender:"",receiver:""});
+
   const handleGenerate = () => {
     setTried(true);
     if (validation.allOk) setView("config");
@@ -725,8 +728,6 @@ export default function App() {
   const lb={fontSize:11,fontWeight:700,color:"#555",marginBottom:3,display:"block",letterSpacing:0.3};
   const lbR=(hasErr)=>({...lb,...(tried&&hasErr?{color:"#e74c3c"}:{})});
 
-  // Brreg search query state (controlled by parent to avoid re-mount focus loss)
-  const [brregQuery, setBrregQuery] = useState({sender:"",receiver:""});
 
   const renderBrregField = (target) => {
     const q = brregQuery[target];
