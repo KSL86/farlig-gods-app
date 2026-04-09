@@ -37,7 +37,8 @@ const DG_DATABASE = [
   { un: "UN1954", name: "COMPRESSED GAS, FLAMMABLE, N.O.S.", nameNo: "Komprimert gass, brannfarlig, I.A.N.", class: "2", division: "2.1", pg: "", cat: 2, label: "2.1", tunnel: "(B/D)", sp: "274", pi: "P200" },
   { un: "UN1955", name: "COMPRESSED GAS, TOXIC, N.O.S.", nameNo: "Komprimert gass, giftig, I.A.N.", class: "2", division: "2.3", pg: "", cat: 1, label: "2.3", tunnel: "(C/D)", sp: "274", pi: "P200" },
   { un: "UN2037", name: "RECEPTACLES, SMALL, CONTAINING GAS (GAS CARTRIDGES)", nameNo: "Gassbeholdere, små (gasspatroner)", class: "2", division: "2.1", pg: "", cat: 3, label: "2.1", tunnel: "(E)", sp: "", pi: "P207/LP200" },
-
+  { un: "UN1075", name: "PETROLEUM GASES, LIQUEFIED", nameNo: "LPG / petroleumsgasser, flytende", class: "2", division: "2.1", pg: "", cat: 2, label: "2.1", tunnel: "(B/D)", sp: "", pi: "P200" },
+  
   // === CLASS 3: FLAMMABLE LIQUIDS ===
   { un: "UN1090", name: "ACETONE", nameNo: "Aceton", class: "3", division: "", pg: "II", cat: 2, label: "3", tunnel: "(D/E)", sp: "", pi: "P001" },
   { un: "UN1170", name: "ETHANOL (ETHYL ALCOHOL)", nameNo: "Etanol (etylalkohol)", class: "3", division: "", pg: "II", cat: 2, label: "3", tunnel: "(D/E)", sp: "144", pi: "P001" },
